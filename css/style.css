@@ -102,6 +102,38 @@
 	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
 }
 
+.contact .btn{
+	background-color: #de3b3b;
+	color: #fff;
+}
+.contact .btn:hover{
+	background-color: #db2c2c;
+}
+
+.about .btn{
+	background-color: #de3b3b;
+	color: #fff;
+}
+.about .btn:hover{
+	background-color: #db2c2c;
+}
+
+.services .btn{
+	background-color: #de3b3b;
+}
+
+.services .btn:hover{
+	background-color: #db2c2c;
+}
+
+.portfolio .btn{
+	background-color: #de3b3b;
+}
+
+.portfolio .btn:hover{
+	background-color: #db2c2c;
+}
+
 
 
 .navbar-toggler {
