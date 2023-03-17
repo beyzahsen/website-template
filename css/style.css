@@ -1,7 +1,22 @@
 * {
 	font-family: 'Montserrat', sans-serif;
 }
+.contact h2{
+	color: #000;
+}
 
+
+.portfolio h2{
+	color: #000;
+}
+
+.services h2{
+	color: #000;
+}
+
+.about h2{
+	color: #000;
+}
 
 .carousel-item {
 	height: 100vh;
@@ -136,7 +151,17 @@
 	background-color: #db2c2c;
 }
 
+footer{
+	padding: 85px 0;
+}
 
+footer .single-box p, h2, ul, h3,a{
+	color: #fff;
+}
+
+footer .single-box a:hover{
+	color:#de3b3b;
+}
 
 .navbar-toggler {
 	padding: 1px 5px;
