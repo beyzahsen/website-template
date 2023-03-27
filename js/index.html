@@ -21,7 +21,7 @@
 						<a class="nav-link" href="#home">Home</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#about">About</a>
+						<a class="nav-link" href="about.html">About</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#portfolio">Portfolio</a>
@@ -221,12 +221,13 @@
 
 
 	<!--team section-->
+
 	<section id="team" class="team-section padding">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<div class="section-header text-center pb-1 pt-5">
-						<h2>Our Team</h2>
+					<div class="section-header text-center pb-1 mt-5">
+						<h2 class="text-dark">Our Team</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur<br>
 						adipisicing elit. Non, quo.</p>
 					</div>
@@ -237,7 +238,7 @@
 					<div class="card text-center">
 						<div class="card-body">
 							<img alt="" class="img-fluid rounded-circle" src="/images/team-mem-2.webp">
-							<h3 class="card-title py-2">Jack Wilson</h3>
+							<h3 class="card-title py-2 text-dark">Jack Wilson</h3>
 							<p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi ipsam nostrum illo tempora esse quibusdam.</p>
 							<p class="socials"><a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a> <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a> <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a> <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a></p>
 						</div>
@@ -247,7 +248,7 @@
 					<div class="card text-center">
 						<div class="card-body">
 							<img alt="" class="img-fluid rounded-circle" src="/images/team-mem.webp">
-							<h3 class="card-title py-2">Jack Wilson</h3>
+							<h3 class="card-title py-2 text-dark">Jack Wilson</h3>
 							<p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi ipsam nostrum illo tempora esse quibusdam.</p>
 							<p class="socials"><a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a> <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a> <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a> <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a></p>
 						</div>
@@ -257,7 +258,7 @@
 					<div class="card text-center">
 						<div class="card-body">
 							<img alt="" class="img-fluid rounded-circle" src="/images/team-mem-3.webp">
-							<h3 class="card-title py-2">Jack Wilson</h3>
+							<h3 class="card-title py-2 text-dark">Jack Wilson</h3>
 							<p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi ipsam nostrum illo tempora esse quibusdam.</p>
 							<p class="socials"><a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a> <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a> <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a> <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a></p>
 						</div>
@@ -267,7 +268,7 @@
 					<div class="card text-center">
 						<div class="card-body">
 							<img alt="" class="img-fluid rounded-circle" src="/images/team-mem-4.webp">
-							<h3 class="card-title py-2">Jack Wilson</h3>
+							<h3 class="card-title py-2 text-dark">Jack Wilson</h3>
 							<p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi ipsam nostrum illo tempora esse quibusdam.</p>
 							<p class="socials"><a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a> <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a> <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a> <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a></p>
 						</div>
@@ -325,22 +326,13 @@
 
 
 	<!--footer-->
-	<footer class="bg-dark p-2 text-center">
+	<footer class="bg-dark p-2 text-center pt-4">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3 col-sm-6">
 					<div class="single-box">
-						<img src="/images/mylogo.png" alt="" width="130" height="30">
+						<img src="/images/mylogo.png" alt="" width="130" height="30" class="mb-3">
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nesciunt quia eos cumque. Autem, est.</p>
-						<h3>
-							We Accept
-						</h3>
-						<div class="card-area ">
-							<i class="fa-brands fa-cc-visa"></i>
-							<i class="fa fa-credit-card"></i>
-							<i class="fa fa-cc-mastercard"></i>
-							<i class="fa fa-cc-paypal"></i>
-						</div>
 					</div>
 				</div>
 				<div class="col-lg-3 col-sm-6">
@@ -373,14 +365,16 @@
 						<h2 style="text-decoration:underline;">NewsLetter</h2>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium laudantium, deserunt ipsum molestiae iusto ipsam.</p>
 						<div class="input-group mb-3">
-							<input type="text" class="form-control" placeholder="Enter Your Email.." aria-label="Receipent's username" aria-describedby="basic-addon2">
-							<span class="input-group-text" id="basic-addon2"><i class="fa fa-long-arrow right"></i></span>
+							<input type="text" class="form-control" placeholder="Enter Your Email.." aria-label="Recipient's username" aria-describedby="basic-addon2">
+							<div class="input-group-text" id="basic-addon2">
+							  <button class="btn btn-outline-secondary btn-sm" type="button">+</button>
+							</div>
 						  </div>
 						  <h2 style="text-decoration:underline;">
 							Follow Us On
 						  </h2>
 						  <p class="socials">
-							<a href="#"><i class="bi bi-twitter text-white mx-1"></i></a> <a href="#"><i class="bi bi-facebook text-white mx-1"></i></a> <a href="#"><i class="bi bi-linkedin text-white mx-1"></i></a> <a href="#"><i class="bi bi-instagram text-white mx-1"></i></a>
+							<a href="https://twitter.com"><i class="bi bi-twitter text-white mx-1"></i></a> <a href="https://facebook.com"><i class="bi bi-facebook text-white mx-1"></i></a> <a href="https://linkedin.com"><i class="bi bi-linkedin text-white mx-1"></i></a> <a href="https://instagram.com"><i class="bi bi-instagram text-white mx-1"></i></a>
 						  </p>
 					</div>
 				</div>

@@ -153,14 +153,51 @@
 
 footer{
 	padding: 85px 0;
+	background: #101010;
 }
 
 footer .single-box p, h2, ul, h3,a{
 	color: #fff;
+	line-height: 1.5;
 }
 
 footer .single-box a:hover{
 	color:#de3b3b;
+}
+
+footer .single-content{
+	padding: 115px 0;
+	text-align:center;
+}
+
+footer .single-box .card-area i{
+	color:#fff;
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+footer .single-box .ul{
+	list-style: none;
+	padding: 0;
+}
+
+footer .single-box .ul .li a{
+	text-decoration: none;
+	line-height: 2.5;
+	font-weight: 100;
+}
+
+#basic-addon2 {
+	background-color: #db2c2c;
+}
+
+#basic-addon2 .btn{
+	border-color: #db2c2c;
+	outline: none;
+	color: #fff;
+}
+#basic-addon2 .btn:hover{
+	background-color: brown;
 }
 
 .navbar-toggler {
